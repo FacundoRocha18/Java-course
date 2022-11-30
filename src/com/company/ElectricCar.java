@@ -11,6 +11,12 @@ public class ElectricCar extends Car {
         this.batteryAutonomy = batteryAutonomy;
     }
 
+		@Override // overrides base class (car) method speedup 
+		public void speedup(Integer quantity) {
+			Integer adjustedQuantity = quantity * 2;
+			super.speedup(adjustedQuantity);
+		}
+
     public String toString() {
         return "Car {" +
                 "brand: '" + brand + "\'" +
