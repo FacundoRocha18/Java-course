@@ -16,7 +16,7 @@ public class Operators {
 
 	// logical, comparatives, relations, booleans
 
-	/* 
+	/*
 	 * > greater than
 	 * >= greater or equal than
 	 * < smaller than
@@ -25,12 +25,41 @@ public class Operators {
 	 * != different than
 	 * && checks if two conditions are truthy
 	 * || checks if one of two conditions are truthy
-	 * !true converts the value to its opposite  
+	 * !true converts the value to its opposite
 	 */
 
 	// assignations
 
-	/* 
-	 * = 
+	/*
+	 * = assigns a value to a variable
+	 * += assigns a value that is the result of adding the actual value and the
+	 * assigned value
+	 * -= assigns a value that is the result of substracting the actual value and
+	 * the assigned value
+	 * /= assigns a value that is the result of dividing the actual value and the
+	 * assigned value
+	 * *= assigns a value that is the result of multiplying the actual value and the
+	 * assigned value
+	 * %= assigns a value that is the result of the module of the actual value and
+	 * the assigned value
 	 */
+
+	// increment
+	/*
+	 * ++ increments by 1 the value of a variable
+	 */
+
+	// decrement
+
+	/*
+	 * decrements by 1 the value of a variable
+	 */
+
+	// concat
+
+	/* 
+	 * string + string Concats the value of two strings
+	 */
+
+	 
 }
