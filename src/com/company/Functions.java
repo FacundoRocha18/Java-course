@@ -11,11 +11,16 @@ public class Functions {
 	}
 
 	/*
-	 * Function override
-	 * It is a function that shares name with another but the params are not the
-	 * same as the other's
+	 * Function overload
+	 * It is a function that shares name with another but the signature is not the
+	 * same
 	 */
 	public static String helloWorld(String name) {
 		return "Hello World and " + name + "!!!";
 	}
+
+	public static String helloWorld(String name, String surname) {
+		return "Hello World and " + name + "!!!";
+	}
+
 }

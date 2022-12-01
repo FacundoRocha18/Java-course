@@ -12,6 +12,8 @@ public class CarServiceImpl implements CarService {
         return "Your " + car.model + " maintenance was done";
     }
 
+    String name = "Nombre";
+
     public String repairCar(Car car) {
         return "The repair of your " + car.model + " was made";
     }

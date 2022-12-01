@@ -1,6 +1,4 @@
-import com.company.Car;
-import com.company.GasolineCar;
-import com.company.NameFormatException;
+import com.company.*;
 import com.company.interfaces.CarService;
 import com.company.interfaces.CarServiceImpl;
 
@@ -14,6 +12,10 @@ import java.util.Scanner;
 
 public class App {
 	public static void main(String[] args) {
+
+		Person person1 = new Person("Nacho", "Arias", 24);
+
+		person1.walk(5, "Forward");
 
 		/*Car car = new GasolineCar("Nissan", "Fairlady 250z", "2005", "Dark Gray", 25000.00, "gasoline", 100);
 
