@@ -1,8 +1,8 @@
 package com.company;
 
-public class Car {
+public abstract class Car { // a class that is not instantiable
     protected String brand;
-    protected String model;
+    public String model;
     protected String year;
     protected String color;
     protected Double price;

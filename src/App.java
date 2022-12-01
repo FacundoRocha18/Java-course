@@ -1,8 +1,10 @@
-import java.util.function.Function;
-
 import com.company.Car;
-import com.company.ElectricCar;
-import com.company.Functions;
+import com.company.GasolineCar;
+import com.company.NameFormatException;
+import com.company.interfaces.CarService;
+import com.company.interfaces.CarServiceImpl;
+
+import java.util.Scanner;
 
 /**
  * Entry point to the app
@@ -11,15 +13,34 @@ import com.company.Functions;
  */
 
 public class App {
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 
-		Car car = new Car("Nissan", "250z", "2005", "Dark Gray", 25000.00);
-		ElectricCar electricCar = new ElectricCar("Tesla", "X", "2020", "Snow White", 60000.00, "Electric", 300);
+		/*Car car = new GasolineCar("Nissan", "Fairlady 250z", "2005", "Dark Gray", 25000.00, "gasoline", 100);
 
-		System.out.println(car.toString());
-		System.out.println(electricCar.toString());
+		CarService service = new CarServiceImpl();
 
-		car.speedup(120);
-		electricCar.speedup(120);
+		System.out.println(service.washCar(car));
+		System.out.println(service.maintainCar(car));
+		System.out.println(service.repairCar(car));*/
+
+		try {
+			readName();
+		} catch (NameFormatException e) {
+			e.printStackTrace();
+		}
+	}
+	private static void readName() throws NameFormatException {
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Write a name");
+
+		while (keyboard.hasNext()) {
+			System.out.println("Write a name");
+			String name = keyboard.nextLine();
+
+			if(name.length() < 2) {
+				keyboard.close();
+				throw new NameFormatException("The name must have more than 1 characters");
+			}
+		}
 	}
 }
