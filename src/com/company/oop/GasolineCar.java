@@ -1,4 +1,4 @@
-package com.company;
+package com.company.oop;
 
 public class GasolineCar extends Car {
 

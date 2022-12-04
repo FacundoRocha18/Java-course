@@ -1,4 +1,4 @@
-package com.company;
+package com.company.dataStructures;
 
 public class Arrays {
 

@@ -1,6 +1,6 @@
 package com.company.interfaces;
 
-import com.company.Car;
+import com.company.oop.Car;
 
 public interface CarService {
     public String washCar(Car car);

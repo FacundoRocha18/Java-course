@@ -1,4 +1,4 @@
-package com.company;
+package com.company.types;
 
 /**
  * Class created to learn Java types and variables

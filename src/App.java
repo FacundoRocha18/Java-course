@@ -1,6 +1,5 @@
-import com.company.*;
-import com.company.interfaces.CarService;
-import com.company.interfaces.CarServiceImpl;
+import com.company.exceptions.NameFormatException;
+import com.company.oop.Person;
 
 import java.util.Scanner;
 
@@ -24,6 +23,8 @@ public class App {
 		System.out.println(service.washCar(car));
 		System.out.println(service.maintainCar(car));
 		System.out.println(service.repairCar(car));*/
+
+		Integer a = 0xBEEF;
 
 		try {
 			readName();

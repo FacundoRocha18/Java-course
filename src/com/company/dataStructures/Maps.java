@@ -1,4 +1,6 @@
-package com.company;
+package com.company.dataStructures;
+
+import com.company.oop.Person;
 
 import java.util.HashMap;
 import java.util.Map;

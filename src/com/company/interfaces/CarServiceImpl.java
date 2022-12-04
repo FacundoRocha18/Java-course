@@ -1,6 +1,6 @@
 package com.company.interfaces;
 
-import com.company.Car;
+import com.company.oop.Car;
 
 public class CarServiceImpl implements CarService {
 

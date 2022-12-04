@@ -1,4 +1,4 @@
-package com.company;
+package com.company.dataStructures;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,8 +15,7 @@ public class Lists {
         names.add("Nacho");
         names.add("Richard");
 
-        for (String name: names) {
-            System.out.println(name);
-        }
+        names.forEach((String name) -> {System.out.println(name); });
+
     }
 }

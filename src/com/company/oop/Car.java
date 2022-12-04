@@ -1,4 +1,4 @@
-package com.company;
+package com.company.oop;
 
 public abstract class Car { // a class that is not instantiable
     protected String brand;
