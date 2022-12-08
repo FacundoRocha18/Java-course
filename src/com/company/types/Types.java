@@ -1,5 +1,7 @@
 package com.company.types;
 
+import java.math.BigDecimal;
+
 /**
  * Class created to learn Java types and variables
  * variable structure: = <value>
@@ -38,7 +40,18 @@ public class Types {
 		// Wrapper types can be null
 		Integer number = null;
 		Long number2 = 2L;
-		
+
+		// BugDecimal, number types for financial operations and values
+
+		BigDecimal valueA = new BigDecimal(3.14);
+
+		BigDecimal valueB = new BigDecimal(3.00);
+
+		BigDecimal result = valueA.add(valueB);
+
+		System.out.println(valueA);
+
+		System.out.println(result);
 	}
 
 }

@@ -8,7 +8,7 @@ import java.util.Map;
 public class Maps {
 
     public static void main(String[] args) {
-        Map<String, Person> persons = new HashMap<>();
+        HashMap<String, Person> persons = new HashMap<>();
 
         persons.put("5.459.133-4", new Person("Facundo", "Rocha", 21));
         persons.put("5.839.214-3", new Person("Nacho", "Arias", 24));
